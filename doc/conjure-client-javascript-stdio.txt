@@ -103,7 +103,7 @@ All configuration can be set as described in |conjure-configuration|.
                                           *g:conjure#client#javascript#stdio#args*
 `g:conjure#client#javascript#stdio#args`
             Args appended to the REPL command. Useful if you need to toggle
-            features off or on in `node` or `ts-node` (which is selected
+            features off or on in `node` or `npx ts-node` (which is selected
             automatically depending on your filetype).
 
             `node` automatically includes `--experimental-repl-await` too.

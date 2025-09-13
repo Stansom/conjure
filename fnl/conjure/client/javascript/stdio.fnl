@@ -153,7 +153,7 @@
     "node --experimental-repl-await"
 
     (= :typescript vim.bo.filetype)
-    "ts-node"))
+    "npx ts-node"))
 
 
 (fn M.start []

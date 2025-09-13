@@ -153,7 +153,7 @@ local function repl_command_for_filetype()
   if ("javascript" == vim.bo.filetype) then
     return "node --experimental-repl-await"
   elseif ("typescript" == vim.bo.filetype) then
-    return "ts-node"
+    return "npx ts-node"
   else
     return nil
   end
